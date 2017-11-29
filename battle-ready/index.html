@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<base target="_blank">
+<link rel="icon" type="image/png" href="images/earthfix-icon.png" />
+<title>Battle Ready &mdash; Military and the Environment by Earthfix</title>
+<meta name="description" content="Seventy-five years ago, America was drawn into World War II and the Pacific Northwest answered the call with lumber, hydroelectricity, even a secret plutonium factory to arm atomic bombs. Soldiers trained here. Cities were transformed by shipyards and airplane assembly lines. This special report explores the hidden history of the military, the Northwest, and the environment.">
+<meta property="og:title" content="Battle Ready &mdash; Military and the Environment by Earthfix">
+<meta property="og:description" content="Battle Ready explores the hidden history of the military, the Northwest, and the environment.">
+<meta property="og:image" content="http://origin.kcts9.org/battle-ready/images/battle-ready-social-img.png">
+<meta name="twitter:card" content="summary_large_image">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jquerymobile/1.4.5/jquery.mobile.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquerymobile/1.4.5/jquery.mobile.min.js"></script>
+<script src="http://code.highcharts.com/highcharts.js"></script>
+<script src="files/larks.js"></script>
+<link rel="stylesheet" href="styles.css">
+<script src="script.js"></script>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-2418330-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</head>
+
+<body>
+<div id="rotate">
+  <p>This feature is best viewed in landscape.<br/>
+      Please rotate your screen.</p>
+    <img src="images/rotate-device.jpg">
+</div>
+<div id="menu"></div>
+<div id="slider-bck"></div>
+<div id="main-wrapper" style="background-image:url('images/misty-landing-06.png')">
+  <div id="main" class="title-page">
+    <div id="title">
+      <h1>BATTLE READY</h1>
+      <h2>The Military&rsquo;s Environmental Legacy in the Northwest</h2>
+      <p class="blurb">Seventy-five years ago, America was drawn into World War II and the Pacific Northwest answered the call with lumber, hydroelectricity, even a secret plutonium factory to arm atomic bombs. <!--Soldiers trained here. Cities were transformed by shipyards and airplane assembly lines. -->This interactive digital documentary explores the hidden history of the military, the Northwest and the environment.</p>
+      <div id="nav">
+        <a class="chap-button" href="b17.html" target="_self">Play Part 1: The B-17</a>
+        <p class="other-button" style="margin-top:14px;">explore the series</p>
+      </div>
+      <!--<div class="title-button-row">
+        <a href="#" class="title-button" style="">part1</a>
+        <a href="#" class="title-button">part2</a>
+        <a href="#" class="title-button">part3</a>
+      </div>-->
+    </div>
+    <div id="video-wrapper">
+      <div id="video">
+        <video id="video-player" width="100%" preload="auto">
+          <track src="" kind="subtitles" srclang="en" label="English" default>
+        </video>
+      </div>
+    </div>
+    <!--<div id="nav" style="text-align:center;">
+      <a class="chap-button" href="b17.html" target="_self">Start at Part 1: The B-17.</a>
+      <p>or</p>
+      <p class="other-button">select a chapter from the navigation</p>
+
+    </div>-->
+    <div id="video-wrapper">
+      <div id="video">
+        <!--<div id="video-poster" style="display:none;">
+          <img src="http://origin.kcts9.org/earthfix/images/larks/larks-lead.png">
+        </div>-->
+
+      </div>
+    </div>
+    <div id="control-wrapper" style="display:none;">
+      <div class="control-cover"> </div>
+      <div id="video-controls">
+            <button type="button" id="play-pause" data-role="none"></button>
+            <button type="button" id="stop-vid" data-role="none"></button>
+            <input type="range" id="seek-bar" value="0" min="0" max="100" data-role="none">
+
+            <div id="add-sections">
+            </div>
+
+            <div id="duration"></div>
+            <button type="button" id="mute" data-role="none"></button>
+            <input type="range" id="volume-bar" min="0" max="1" step="0.1" value="1" data-role="none">
+            <button type="button" id="caption" data-role="none"></button>
+           <div style="clear:both;"></div>
+  <!--add sections titles here-->
+      </div>
+    </div>
+  <div id="explore-button">
+    <div class="explore">
+      <span class="text">Explore More</span>
+      <img src="images/up-arrow.png">
+    </div>
+    <div class="next-image">
+      <span class="text">Next Image</span>
+      <img src="images/up-arrow.png">
+    </div>
+    <div class="return">
+      <span class="text">Return to Video</span>
+      <img src="images/down-arrow.png">
+    </div>
+  </div>
+  <div id="slider">
+    <div id="article">
+        <img class="scroll-arrows" src="images/up-arrow.png">
+        <div class="story-wrapper" >
+          <div class="story">
+
+          </div>
+        </div>
+        <img class="scroll-arrows" src="images/down-arrow.png">
+    </div>
+      <div id="map">
+      </div>
+      <div id="photo">
+        </div>
+        <div style="clear:both;"></div>
+      </div>
+  </div>
+</div>
+</body>
+
+</html>

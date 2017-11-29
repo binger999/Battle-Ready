@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width,height=device-height,initial-scale=1.0">
+<base target="_blank">
+<link rel="icon" type="image/png" href="images/earthfix-icon.png" />
+<title>Protecting Vanishing Species As The Artillery Flies &mdash; Battle Ready by Earthfix</title>
+<meta name="description" content="If you were to guess who is responsible for looking out for wildlife, you probably wouldn&rsquo;t think of the Army. As it turns out, more than 400 threatened or endangered species live on U.S. military land &mdash; almost four times more than in national parks. So how do we protect animals in dangerous places?">
+<meta property="og:title" content="Protecting Vanishing Species As The Artillery Flies &mdash; Battle Ready by Earthfix">
+<meta property="og:description" content="More than 400 threatened or endangered species live on U.S. military land &mdash; almost four times more than in national parks. How do we protect animals in dangerous places?">
+<meta property="og:image" content="http://origin.kcts9.org/battle-ready/images/larks/larks-lead.png">
+<meta name="twitter:card" content="summary_large_image">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jquerymobile/1.4.5/jquery.mobile.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquerymobile/1.4.5/jquery.mobile.min.js"></script>
+<script src="http://code.highcharts.com/highcharts.js"></script>
+<script src="files/chart-code.js"></script>
+<script src="files/larks.js"></script>
+<link rel="stylesheet" href="styles.css">
+<script src="script.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-2418330-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</head>
+
+<body>
+  <div id="rotate">
+    <p>This feature is best viewed in landscape.<br/>
+      Please rotate your screen.</p>
+      <img src="images/rotate-device.jpg">
+  </div>
+<div id="menu"></div>
+<div id="slider-bck"></div>
+<div id="next">
+  <a class="chap-button" href="/battle-ready" target="_self">Back to Home</a>
+  <p class="other-button" style="margin-top:20px;text-shadow:none;">explore the series</p>
+</div>
+<div id="main-wrapper" style="background-image:url('images/larks/larks-lead.png')">
+  <div id="main">
+    <div id="title">
+      <h1>Protecting Vanishing Species as the Artillery Flies</h1>
+      <h2>Part 7</h2>
+      <p>If you were to guess who is responsible for looking out for wildlife, you probably wouldn&rsquo;t think of the Army. As it turns out, more than 400 threatened or endangered species live on U.S. military land &mdash; almost four times more than in national parks. So how do we protect animals in dangerous places?</p>
+      <!--<div class="title-button-row">
+        <a href="#" class="title-button" style="">part1</a>
+        <a href="#" class="title-button">part2</a>
+        <a href="#" class="title-button">part3</a>
+      </div>-->
+    </div>
+    <div id="video-wrapper">
+      <div id="video-div">
+        <video id="video-player" width="100%" preload="auto" playsinline>
+          <source src="videos/EF-Larks.mp4">
+          <track src="files/captions/larks.vtt" kind="subtitles" srclang="en" label="English">
+            This feature is best viewed on an up-to-date browser. Please download the latest <a href="https://www.google.com/chrome/browser/desktop/index.html">Chrome</a>, <a href="https://www.mozilla.org/en-US/firefox/new/">Firefox</a> or <a href="http://www.apple.com/safari/">Safari</a> browser.
+        </video>
+      </div>
+    </div>
+    <div id="control-wrapper">
+      <div id="video-controls">
+            <img src="images/play-button.png" type="button" id="play-pause" data-role="none">
+            <img src="images/stop-button.png" type="button" id="stop-vid" data-role="none">
+            <input type="range" id="seek-bar" value="0" min="0" max="100" data-role="none">
+
+            <div id="add-sections">
+              <div class="article section" id="main-article"><p>Summary</p></div>
+              <div class="graph section" id="refuge"><p>Critical Habitat</p></div>
+              <div class="photo section" id="article1"><p>Results?</p></div>
+              <div class="photo section" id="photo1"><p style="width:115%;">Not Just Larks</p></div>
+              <div class="video section" id="video1"><p>Restoring Prairies</p></div>
+            </div>
+
+            <div id="duration"></div>
+            <img src="images/mute-button.png"  type="button" id="mute" data-role="none">
+            <input type="range" id="volume-bar" min="0" max="1" step="0.1" value="1" data-role="none">
+            <img src="images/cc-button.png" type="button" id="caption" data-role="none">
+           <div style="clear:both;"></div>
+  <!--add sections titles here-->
+      </div>
+    </div>
+  <div id="explore-button">
+    <div class="explore">
+      <span class="text">Explore More</span>
+      <img src="images/up-arrow.png">
+    </div>
+    <div class="next-image">
+      <div class="next-next">
+        <span class="text">Explore More</span>
+        <img src="images/up-arrow.png">
+        <div style="clear:both;"></div>
+      </div>
+      <div class="next-return">
+        <span class="text">Return to Video</span>
+        <img src="images/down-arrow.png">
+        <div style="clear:both;"></div>
+      </div>
+    </div>
+    <div class="return">
+      <span class="text">Return to Video</span>
+      <img src="images/down-arrow.png">
+    </div>
+  </div>
+  <div id="slider">
+    <div id="article">
+        <!--<img class="scroll-arrows" src="images/up-arrow.png">-->
+        <div class="story-wrapper" >
+          <div class="story">
+
+          </div>
+        </div>
+      <!--  <img class="scroll-arrows" src="images/down-arrow.png">-->
+    </div>
+      <div id="graph">
+      </div>
+      <div id="photo">
+      </div>
+      <div id="audio">
+      </div>
+      <div id="video">
+      </div>
+      <div style="clear:both;"></div>
+  </div>
+ </div>
+</div>
+</body>
+
+</html>
